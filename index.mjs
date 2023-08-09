@@ -13,7 +13,7 @@ const server = new ApolloServer({
 server.listen({port: API_PORT || 4000}).then(({url}) => {
     console.log(`Server is ready at:`.green + ` ${url}`.yellow)
     console.log(
-        `Query at:`.magenta + ' https://studio.appolographql.com/dev'.yellow
+        `Query at:`.magenta + ' https://studio.apollographql.com/dev'.yellow
     )
 }).catch(error => {
     console.log(error)

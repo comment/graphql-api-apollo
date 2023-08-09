@@ -5,7 +5,15 @@ export const typeDefs = gql`
         checkApiStatus: ApiStatus
     }
     
+    type Mutation {
+        testMutations(input: String): Test
+    }    
+    
     type ApiStatus {
+        status: String
+    }
+    
+    type Test {
         status: String
     }
 `

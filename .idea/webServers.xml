@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="49d6cb30-1536-4296-ba71-3b04f30e335b" name="hoster">
+        <fileTransfer rootFolder="/var/www/graphql-api" accessType="SFTP" host="178.172.173.231" port="22" sshConfigId="e07e5f54-794b-47ba-a24b-a569c9f52e4c" sshConfig="root@178.172.173.231:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
